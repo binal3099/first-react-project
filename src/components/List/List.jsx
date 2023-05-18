@@ -1,9 +1,23 @@
 function List(){
 
     return(
-        <h1>
-            Hello world
-        </h1>
+        <ul className="ullist">
+            <li className="li">
+                <a href="#" className="astyle">
+                    Home
+                </a>
+            </li>
+            <li className="li">
+                <a href="#" className="astyle">
+                    About
+                </a>
+            </li>
+            <li className="li">
+                <a href="#" className="astyle">
+                    Service
+                </a>
+            </li>
+        </ul>
     )
 
 }
