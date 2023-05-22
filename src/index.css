@@ -17,29 +17,31 @@
   margin-right: -16px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 .logo{
-  width: 10%;
+  width: 5%;
 }
 img{
   width: 100%;
 }
 
-nav{
+.list{
   display: flex;
   align-items: center;
 }
 .w{
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
   flex-grow: 1;
 }
 .ullist{
   display: flex;
+  justify-content: end;
 }
-.align-item-center{
+/* .align-item-center{
   align-items: center;
-}
+} */
 .li{
   display: flex;
   list-style: none;
