@@ -1,4 +1,5 @@
 import Navlist2 from "../../components/Navlist/Navlist2";
+import ClassCom from "../../components/ClassCom";
 
 function Header2(){
 
@@ -11,6 +12,7 @@ function Header2(){
                     <Navlist2 />
                 </div>
             </div>
+            {/* <ClassCom /> */}
         </header>
     )
 }

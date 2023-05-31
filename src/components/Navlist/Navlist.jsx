@@ -1,10 +1,10 @@
-import Logo from "../Logo/Logo";
+
 import List from "../List/List";
+import Banner from "../ComponentCom/Banner/Banner";
 function Navlist(){
 
     return(
         <div className="list">
-            <Logo />
             <nav className="w">
                 <List />
             </nav> 
