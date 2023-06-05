@@ -54,6 +54,7 @@ function Banner(){
                 </Carousel.Item>
             </Carousel>
         </div>
+        
     )
 }
 export default Banner;
